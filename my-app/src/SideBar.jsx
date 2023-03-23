@@ -19,6 +19,7 @@ const SideBar = () => {
   );
 };
 
+//icons are not rendering everything else is working
 const SideBarIcon = ({ icon, text = "tooltip 💡" }) => (
   <div className="sidebar-icon group">
     {icon}
